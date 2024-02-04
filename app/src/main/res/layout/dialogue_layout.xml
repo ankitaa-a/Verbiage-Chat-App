@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="325dp"
+    android:layout_height="234dp"
+    android:orientation="vertical"
+    android:layout_gravity="center"
+    android:layout_margin="13dp"
+    android:background="@drawable/shapedialogue">
+
+    <ImageView
+        android:id="@+id/logoutlogodia"
+        android:layout_width="@dimen/_45sdp"
+        android:layout_height="@dimen/_45sdp"
+        android:src="@drawable/exit"
+        android:layout_gravity="center"
+        android:layout_margin="13dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Confirm \nLogout?"
+        android:textSize="19dp"
+        android:gravity="center"
+        android:fontFamily="@font/poppins_regular"
+        android:textColor="@color/white"
+        android:layout_margin="@dimen/_8sdp"/>
+    
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/nobtn"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:layout_margin="13dp"
+            android:layout_weight="1"
+            android:backgroundTint="#00B8D4"
+            android:gravity="center"
+            android:minHeight="48dp"
+            android:text="NO"
+            android:textColor="@color/black" />
+
+        <Button
+            android:id="@+id/yesbtn"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:layout_margin="13dp"
+            android:layout_weight="1"
+            android:backgroundTint="#00B8D4"
+            android:gravity="center"
+            android:minHeight="48dp"
+            android:text="YES"
+            android:textColor="@color/black" />
+    </LinearLayout>
+
+</LinearLayout>

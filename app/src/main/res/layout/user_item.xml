@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="10.00dp"
+    android:background="@drawable/bordermain">
+    
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/userimg"
+            android:layout_width="100dp"
+            android:layout_height="70dp"
+            android:src="@drawable/img_1"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:gravity="center">
+
+            <TextView
+                android:id="@+id/username"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/poppins_bold"
+                android:text="Name"
+                android:textSize="20dp"
+                android:textColor="@color/black"/>
+
+            <TextView
+                android:id="@+id/userstatus"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/poppins_regular"
+                android:text="Status"
+                android:textColor="@color/black"
+                android:textSize="10.40dp"
+                tools:ignore="TextSizeCheck" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</RelativeLayout>

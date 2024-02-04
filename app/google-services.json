@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "359831400083",
+    "project_id": "verbiage-7549f",
+    "storage_bucket": "verbiage-7549f.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:359831400083:android:7fcde3948f39b6d0e9e766",
+        "android_client_info": {
+          "package_name": "com.example.verbiage"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBce6mUWX0o_ZBmhns62BJV6scyQu1IacM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
